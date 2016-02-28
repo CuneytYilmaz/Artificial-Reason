@@ -429,24 +429,55 @@ h4{
     top:1891px;
 }
 
-.bx-next:hover{
+.our-clients .bx-next{
+    font-size:1.4em;
+    text-decoration:none;
+    color:#fff;
+    background-color:#666;
+    padding:6px 0px;
+    width:32px;
+    height:35px;
+    text-align:center;
+    position:absolute;
+    right:677px;
+    top:2364px;
+}
+
+.latest-work .bx-next:hover{
     text-decoration:none;
     background-color:#2366f0;
     color:#fff;
 }
 
-.bx-prev:focus{
+.our-clients .bx-next:hover{
+    text-decoration:none;
+    background-color:#2366f0;
+    color:#fff;
+}
+
+.latest-work .bx-prev:focus{
     text-decoration:none;
     color:#fff;
 }
 
-.bx-prev:hover{
+.our-clients .bx-prev:focus{
+    text-decoration:none;
+    color:#fff;
+}
+
+.latest-work .bx-prev:hover{
     text-decoration:none !important;
     background-color:#2366f0;
     color:#fff;
 }
 
-.bx-prev{
+.our-clients .bx-prev:hover{
+    text-decoration:none !important;
+    background-color:#2366f0;
+    color:#fff;
+}
+
+.latest-work .bx-prev{
     font-size:1.4em;
     text-decoration:none;
     color:#fff;
@@ -460,26 +491,61 @@ h4{
     top:1891px;
 }
 
-.bx-next:visited{
+.our-clients .bx-prev{
+    font-size:1.4em;
+    text-decoration:none;
+    color:#fff;
+    background-color:#666;
+    padding:6px 0px;
+    width:32px;
+    height:35px;
+    text-align:center;
+    position:absolute;
+    right:713px;
+    top:2364px;
+}
+
+.latest-work .bx-next:visited{
     text-decoration:none !important;
     color:#fff;
 }
 
-.bx-prev:visited{
+.our-clients .bx-next:visited{
     text-decoration:none !important;
     color:#fff;
 }
+
+.latest-work .bx-prev:visited{
+    text-decoration:none !important;
+    color:#fff;
+}
+
+.our-clients .bx-prev:visited{
+    text-decoration:none !important;
+    color:#fff;
+}
+
+.alinti{
+    border-color:#2366f0;
+}
+
+.our-clients li{
+    margin-top:14px;
+    margin-left:0;
+    width:548px;
+}
+
 
 .viewport ul{
     list-style:none;
 }
 
-.viewport .bxslider li{
+.viewport .bxslider li{   
     width:275px;
     float:left;
 }
 
-.bx-wrapper .bx-viewport li{
+.latest-work .bx-wrapper .bx-viewport li{
     width:275px !important;
     padding:5px;
 }
@@ -543,6 +609,7 @@ h4{
 
 .clients-baslik{
     border-bottom:solid 1px #ddd;
+    margin-left:5px;
 }
 
 body {
