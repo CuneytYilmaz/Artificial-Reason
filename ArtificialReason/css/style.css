@@ -122,6 +122,17 @@
     color:#fff;
 }
 
+.dropdown-menu{
+    background-color:#444;
+    color:#fff;
+    font-size:13px;
+    line-height:0.7;
+}
+
+.duz-yazi{
+    padding-left:48px;
+    
+}
 
 .top-nav .top-nav-login{
     border:solid 1px #e3e6e8;
