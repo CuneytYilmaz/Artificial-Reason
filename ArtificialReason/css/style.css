@@ -617,6 +617,7 @@ h4{
 }
 
 .alt{
+    height:325px;
     background-color:#444;
     color:#eee;
     border-top:solid 1px #ccc;
@@ -663,6 +664,49 @@ h4{
 .abonelik{
     width:390px;
     position:relative;
+}
+
+.alt .satir{
+    position:absolute;
+}
+
+.alt .media-object{
+    width:70px !important;
+    height:70px !important;
+}
+
+.alt .media-heading a{
+    color:#eee;
+    font-size:0.9em;
+    line-height:1.3em;
+}
+
+.alt .media-heading a:hover{
+    font-size:0.9em;
+    line-height:1.3em;
+    text-decoration:none;
+    color:#5387f3;
+}
+
+
+small{
+    font-style:oblique;
+    color:#ccc;
+    font-size:85%;
+}
+
+.alt .col-md-6{
+    height:133.328px;
+}
+
+.thumbnail{
+    border-radius:0;
+    background-color:#444;
+    border-color:#666;
+}
+
+.footer-sag{
+    width:390px;
 }
 
 body {
