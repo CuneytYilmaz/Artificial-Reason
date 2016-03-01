@@ -709,6 +709,20 @@ small{
     width:390px;
 }
 
+#footer{
+    background-color:#333;
+    color:#ccc;
+    padding-top:7px;
+    padding-bottom:4px;
+    text-align:center;
+    border-top:solid 1px #555;
+}
+
+#footer a{
+    text-decoration:none;
+    color:#2366f0;
+}
+
 body {
     background-color:#fff;
     color:#666;  
