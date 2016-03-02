@@ -75,6 +75,9 @@
     <Content Include="images\ipad.png" />
     <Content Include="images\iphone.png" />
     <Content Include="images\logo_big.png" />
+    <Content Include="images\m11.jpg" />
+    <Content Include="images\m2.jpg" />
+    <Content Include="images\m4.jpg" />
     <Content Include="images\mac.png" />
     <Content Include="images\macpro.png" />
     <Content Include="images\maxis.png" />
