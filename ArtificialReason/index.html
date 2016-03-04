@@ -78,6 +78,20 @@
     <nav class="navbar navbar-default navbar-dark">
         <div class="container">
             <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="row hidden-md hidden-sm hidden-lg">
+                <div class="col-xs-8">
+                    <div class="navbar-header hidden-sm hidden-md gizli-menu-content">
+                        <button type="button" class="gizli-menu" data-toggle="collapse" data-target=""><i class="fa fa-bars"></i></button>
+                        <a class="navbar-brand gizli-yazi" href="#">artificial <span style="color:#2366f0; text-shadow:none !important;">reason</span></a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <ul class="nav navbar-nav navbar-right pull-right">
+                        <li><a href="#"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
@@ -270,9 +284,10 @@
                             <li><a href="#">Portfolio item device</a></li>
                         </ul>
                     </li>
-                </ul>
 
-                <ul class="nav navbar-nav navbar-right">
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right pull-right">
                     <li><a href="#"><i class="fa fa-bars"></i></a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -309,7 +324,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-3">
+                            <div class="col-md-6 col-sm-3 hidden-xs">
                                 <div class="carousel-resim">
                                     <img src="images/pre.png" class="img-responsive animated bounceInUp animation-delay-3" />
                                 </div>
@@ -337,7 +352,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-3">
+                            <div class="col-md-6 col-sm-3 hidden-xs">
                                 <div class="carousel-resim">
                                     <img src="images/pre2.png" class="img-responsive animated bounceInUp animation-delay-3" />
                                 </div>
@@ -364,7 +379,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-3">
+                            <div class="col-md-6 col-sm-3 hidden-xs">
                                 <div class="carousel-resim">
                                     <img src="images/pre3.png" class="img-responsive animated bounceInUp animation-delay-3" />
                                 </div>
@@ -375,11 +390,11 @@
 
             </div>
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a id="sol-button" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a id="sag-button" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -528,14 +543,14 @@
         <div class="container">
             <div class="latest-top">
                 <h2 class="latest-baslik"><span class="renkli">L</span>atest Works</h2>
-                <div class="bxslider-controls">
-                    <span id="bx-ileri">
-                        <a class="bx-next" id="bx-ileri" href><b>></b></a>
-                    </span>
-                    <span id="bx-geri">
-                        <a class="bx-prev" id="bx-geri" href><b><</b></a>
-                    </span>
-                </div>
+            </div>
+            <div class="bxslider-controls">
+                <span id="bx-ileri">
+                    <a class="bx-next" id="bx-ileri" href><b>></b></a>
+                </span>
+                <span id="bx-geri">
+                    <a class="bx-prev" id="bx-geri" href><b><</b></a>
+                </span>
             </div>
             <div class="bx-wrapper">
                 <div style="border:none !important" class="bx-viewport">
@@ -686,19 +701,20 @@
             </div>
             <div class="clients-baslik">
                 <h2 class="latest-baslik"><span class="renkli">O</span>ur Clients</h2>
-                <div class="bxslider-controls">
-                    <span id="bx-ileri2">
-                        <a class="bx-next" href><b>></b></a>
-                    </span>
-                    <span id="bx-geri2">
-                        <a class="bx-prev" href><b><</b></a>
-                    </span>
-                </div>
+                
 
             </div>
 
             <div class="row">
                 <div class="col-md-6">
+                    <div class="bxslider-controls">
+                        <span id="bx-ileri2">
+                            <a class="bx-next" href><b>></b></a>
+                        </span>
+                        <span id="bx-geri2">
+                            <a class="bx-prev" href><b><</b></a>
+                        </span>
+                    </div>
                     <div class="bx-wrapper">
                         <div class="bx-viewport">
                             <ul class="bxslider">
@@ -732,30 +748,30 @@
                 </div>
                 <div class="col-md-6 ">
                     <div class="row">
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/intel.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/microsoft.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/nokia.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/samsung.png" class="img-responsive" />
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/anz.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/maxis.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/sony.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
                             <img src="images/hp.png" class="img-responsive" />
                         </div>
                     </div>
@@ -770,24 +786,24 @@
                 <div class="col-md-4">
                     <h3>Sitemap</h3>
                     <ul class="row">
-                        <li class="col-md-4 col-sm-4"><a href="#">Home</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Blog</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Portafolio</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Works</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Timeline</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Pricing</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">About Us</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Our Team</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Services</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">FAQ</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Login</a></li>
-                        <li class="col-md-4 col-sm-4"><a href="#">Contact</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Home</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Blog</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Portafolio</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Works</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Timeline</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Pricing</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">About Us</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Our Team</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Services</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">FAQ</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Login</a></li>
+                        <li class="col-md-4 col-sm-4 col-xs-4"><a href="#">Contact</a></li>
                     </ul>
                     <h3>Subscribe</h3>
                     <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
-                    <div class="abonelik input-group">
+                    <div class="input-group">
                         <input type="text" class="form-control txtbox" placeholder="Email Adress" />
-                        <button type="button" class="btnsub">Subscribe</button>
+                        <button type="button" class="btnsub" style="height:34px;">Subscribe</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -838,22 +854,22 @@
                 <div class="col-md-4">
                     <h3>Recent Works</h3>
                     <div class="row footer-sag">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-3 col-xs-6">
                             <a href="#" class="thumbnail">
                                 <img class="img-responsive" src="images/w1.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-3 col-xs-6">
                             <a href="#" class="thumbnail">
                                 <img class="img-responsive" src="images/w2.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-3 col-xs-6">
                             <a href="#" class="thumbnail">
                                 <img class="img-responsive" src="images/w5.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-3 col-xs-6">
                             <a href="#" class="thumbnail">
                                 <img class="img-responsive" src="images/w6.jpg">
                             </a>
