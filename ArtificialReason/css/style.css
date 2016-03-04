@@ -946,6 +946,22 @@ small{
     padding-bottom:5px;
 }
 
+#back-top a{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    color:#eee;
+    background-color:rgba(0, 0, 0, 0.3);
+    transition:all .25s ease;
+    padding:10px;
+    border-radius:5px;
+    text-align:center;
+}
+
+#back-top a i{
+    font-size:2em;
+}
+
 body {
     background-color:#fff;
     color:#666;  
