@@ -382,7 +382,116 @@ h1{
     position:relative;
 }
 
+.slide-baslik{
+    font-size:1.5em;
+    color:#5387f3;
+    padding-left:20px;
+    margin-top:15px;
+    padding-bottom:15px;
+    margin-bottom:5px;
+    border-bottom:1px solid #2f2f2f;
+}
 
+.slide-cerceve{
+    width:44px;
+    height:44px;
+    text-align:center;
+    font-size:28px;
+    border-radius:2px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    margin-top:8px;
+    color:#fff;
+    padding-top:8px;
+}
+
+.sb-slidebar ul li a{
+    padding-left:15px;
+    color:#ddd;
+    text-decoration:none;
+    border-bottom:solid 1px #2f2f2f;
+    display:block;
+    margin-left:0;
+    padding-bottom:10px;
+    padding-top:8px;
+}
+
+.slide-btn{
+    height:50px;
+    color:#fff;
+    background-color:#2366f0;
+    border-radius:0;
+    border:solid 1px #2f2f2f;
+    padding-right:11px;
+    padding-left:11px;
+    text-align:center;
+}
+
+.txtara{
+    padding-right:45px;
+    height:50px;
+    background-color:#333;
+    color:#fff;
+    border:0;
+    border-bottom:solid 1px #2f2f2f;
+    box-shadow:none;
+}
+
+.sb-slidebar ul li a:hover{
+    background-color:#000;
+    color:#fff;
+}
+
+.slide-rss{
+    background-color:#ef922f;
+    background-image: linear-gradient(to top, #ef922f, #f3ab5e);
+}
+
+.slide-facebook{
+    background-color:#3b5998;
+    background-image: linear-gradient(to top, #3b5998, #4c70ba);
+}
+
+.slide-twitter{
+    background-color: #00aced;
+    background-image: linear-gradient(to top, #00aced, #21c2ff);
+}
+
+.slide-pinterest{
+    background-color:#cb2027;
+    background-image: linear-gradient(to top, #cb2027, #e03e44);
+}
+
+.slide-instagram{
+    background-color:#517fa4;
+    background-image: linear-gradient(to top, #517fa4, #7098b8);
+}
+
+.slide-wordpress{
+    background-color:#4597be;
+    background-image: linear-gradient(to top, #4597be, #6baccb);
+}
+
+.slide-linkedin{
+    background-color:#007bb6;
+    background-image: linear-gradient(to top, #007bb6, #009de9);
+}
+
+.slide-flickr{
+    background-color:#ff0084;
+    background-image: linear-gradient(to top, #ff0084, #ff339d);
+}
+
+.slide-vine{
+    background-color:#00b48a;
+    background-image: linear-gradient(to top, #00b48a, #00e7b1);
+}
+
+.slide-dribbble{
+    background-color:#f26798;
+    background-image: linear-gradient(to top, #f26798, #f696b8);
+}
 
 .carousel-yazi ul{
     list-style-type:none;
@@ -946,6 +1055,8 @@ small{
     padding-bottom:5px;
 }
 
+
+/*POSITION = FIXED nedir?*/
 #back-top a{
     position:fixed;
     bottom:20px;

@@ -69,11 +69,13 @@
     <Content Include="css\images\bx_loader.gif" />
     <Content Include="css\images\controls.png" />
     <Content Include="css\jquery.bxslider.css" />
+    <Content Include="css\slidebars.min.css" />
     <Content Include="images\anz.png" />
     <Content Include="images\hp.png" />
     <Content Include="images\intel.png" />
     <Content Include="images\ipad.png" />
     <Content Include="images\iphone.png" />
+    <Content Include="images\logo.png" />
     <Content Include="images\logo_big.png" />
     <Content Include="images\m11.jpg" />
     <Content Include="images\m2.jpg" />
@@ -103,6 +105,7 @@
     <Content Include="images\w9.jpg" />
     <Content Include="js\jquery-2.2.1.min.js" />
     <Content Include="js\jquery.bxslider.min.js" />
+    <Content Include="js\slidebars.min.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
