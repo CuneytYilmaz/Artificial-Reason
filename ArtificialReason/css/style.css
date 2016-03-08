@@ -1065,6 +1065,7 @@ small{
     background-color:rgba(0, 0, 0, 0.3);
     transition:all .25s ease;
     padding:10px;
+    z-index:99999999;
     border-radius:5px;
     text-align:center;
 }

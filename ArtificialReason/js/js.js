@@ -25,3 +25,8 @@ $('.our-clients .bxslider').bxSlider({
     prevText: '<',
     pager:false
 });
+
+
+$(window).scroll(function () {
+    $('#header').css("z-index", "999999");
+});
